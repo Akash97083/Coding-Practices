@@ -8,11 +8,9 @@ int main()
     long long  i , j , k , l , t, n, a;
     
     scanf("%lld",&t);
-    //cin>>t;
     
     while(t--)
     {
-        //cin>>n;
         scanf("%lld",&n);
         stack<int> stValue, stIndex;
         
@@ -45,9 +43,9 @@ int main()
         
         for(i = 0; i < n; i++)
         {
-            if(ans[i] == 0) printf("-1 ");// cout<<"-1 ";
-            else printf("%lld ",ans[i]);// cout<<ans[i]<<" ";
+            if(ans[i] == 0) printf("-1 ");
+            else printf("%lld ",ans[i]);
         }
-        printf("\n");//cout<<"\n";
+        printf("\n");
     }
 }
